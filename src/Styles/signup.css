@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main > .box {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  width: 350px;
+}
+
+.main > .box > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main > .box > form > .inputBx {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.main > .box > form > .inputBx > input {
+  width: 100%;
+  padding: 8px 10px;
+}
+
+.main > .box > form > .inputBx > button {
+  padding: 8px 20px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}

@@ -1,0 +1,69 @@
+.forum {
+  min-height: 100vh;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /* display: flex; */
+  /* justify-content: center; */
+  padding: 0 20px;
+  /* flex-direction: column; */
+  gap: 20px;
+}
+
+.forum > .box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 20px;
+  /* border: 1px solid black; */
+}
+.forum button {
+  padding: 8px 20px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.forum > .quesBx {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.forum > .quesBx > .card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.forum > .quesBx > .card > .imgbx > img {
+  width: 100%;
+}
+.forum > .quesBx > .card > .imgbx {
+  width: 150px;
+  /* border: 1px solid black; */
+}
+
+.forum > .quesBx > .card > .ques {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.forum > .quesBx > .card > .ques > a {
+  text-decoration: none;
+  color: black;
+}
+
+.forum > .quesBx > .card > .ques > .col {
+  display: flex;
+  gap: 10px;
+}
+
+.forum > .quesBx > .card > .ques > .col > span {
+  background-color: gray;
+  padding: 4px 6px;
+  color: white;
+  border-radius: 5px;
+}
